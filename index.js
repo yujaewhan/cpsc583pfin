@@ -155,7 +155,7 @@ const render = data => {
             .attr('x', width/2 - 200)
             .attr('y', height/2 + 290)
             .text(function() {
-                return d.tag + "(x:" + xValue(d) + ", y:" + yValue(d) + ",w:" + circleRadius(d)*12 +")";
+                return d.tag + "(x:" + xValue(d) + ", y:" + yValue(d) + ",weight:" + circleRadius(d)*12 +")";
             });
     }
 
