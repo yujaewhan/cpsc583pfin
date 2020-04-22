@@ -13,7 +13,7 @@ const svg = d3.select('svg')
 const render = data => {
     const title = 'User Score vs. Playtime';
 
-    const xAxisLabel = 'Playtime'
+    const xAxisLabel = 'Playtime(Hours)'
     const xValue = d => d.playtime;
 
     const yAxisLabel = 'User Score'
